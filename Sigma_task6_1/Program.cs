@@ -56,7 +56,7 @@ namespace Sigma_task6_1
                     print += poly[i];
                     if (i != 0)
                         print += "x^" + i;
-                    if (i != poly.Length - 1)
+                    if (i != poly.Length - 1)якщо коефіцієнт відємний?
                         print += " + ";
                 }
             }
